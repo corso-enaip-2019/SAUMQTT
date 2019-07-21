@@ -1,0 +1,11 @@
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\bin\Debug\netcoreapp2.1\Mqtt.deps.json
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\bin\Debug\netcoreapp2.1\Mqtt.runtimeconfig.json
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\bin\Debug\netcoreapp2.1\Mqtt.runtimeconfig.dev.json
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\bin\Debug\netcoreapp2.1\Mqtt.dll
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\obj\Debug\netcoreapp2.1\Mqtt.csprojAssemblyReference.cache
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\obj\Debug\netcoreapp2.1\Mqtt.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\obj\Debug\netcoreapp2.1\Mqtt.AssemblyInfoInputs.cache
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\obj\Debug\netcoreapp2.1\Mqtt.AssemblyInfo.cs
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\bin\Debug\netcoreapp2.1\Mqtt.pdb
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\obj\Debug\netcoreapp2.1\Mqtt.dll
+C:\Users\Kevin\Source\Repos\SAU_MQTT\Mqtt\Mqtt\obj\Debug\netcoreapp2.1\Mqtt.pdb
