@@ -9,13 +9,11 @@ namespace Mqtt
 {
     class Program
     {
-        
-
-
         static void Main(string[] args)
         {
 
             Timer publishTimer = new Timer();
+            Timer unsubTimer = new Timer();
             MqttClient client;
             string clientId;
 
@@ -33,14 +31,22 @@ namespace Mqtt
             publishTimer.Interval = 2000;
             publishTimer.Elapsed += new ElapsedEventHandler((sender, e) => Publish(sender, e, client));
             publishTimer.Start();
-            
 
+            unsubTimer.Interval = 10000;
+            unsubTimer.Elapsed += new ElapsedEventHandler((sender, e) => Unsubscribe(sender, e, client));
+            unsubTimer.Start();
+            
         }
 
         static void Subscribe(MqttClient client)
         {
             // subscribe to the topic "/testing" with QoS 2
             client.Subscribe(new string[] { "/testing" }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
+        }
+
+        private static void Unsubscribe(object source, ElapsedEventArgs e, MqttClient client)
+        {
+            client.Unsubscribe(new string[] { "/testing" });
         }
 
         static void Client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
